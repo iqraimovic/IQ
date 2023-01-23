@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Iqram\'s Andriod Lab</string>
-    <string name="hello_message">Hello World!</string>
-    <string name="button_message">I be Button</string>
+    <string name="hello_message">Ekaro Aye</string>
+    <string name="button_message">Button ni mi</string>
 </resources>
