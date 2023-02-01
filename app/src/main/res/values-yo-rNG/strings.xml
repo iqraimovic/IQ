@@ -3,4 +3,6 @@
     <string name="app_name">Iqram\'s Andriod Lab</string>
     <string name="hello_message">Ekaro Aye</string>
     <string name="button_message">Button ni mi</string>
+    <string name="hinttext">hint ni</string>
+    <string name="editmessage">EditText ni mi</string>
 </resources>
