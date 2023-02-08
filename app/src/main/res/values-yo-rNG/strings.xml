@@ -4,5 +4,8 @@
     <string name="hello_message">Ekaro Aye</string>
     <string name="button_message">Button ni mi</string>
     <string name="hinttext">hint ni</string>
+    <string name="mybox">she oma n mu coffee</string>
+    <string name="myswitch">she oma n mu coffee</string>
+    <string name="myradio">she oma n mu coffee</string>
     <string name="editmessage">EditText ni mi</string>
 </resources>
