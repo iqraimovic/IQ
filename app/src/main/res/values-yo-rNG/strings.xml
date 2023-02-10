@@ -3,4 +3,8 @@
     <string name="app_name">Iqram\'s Andriod Lab</string>
     <string name="hello_message">Ekaro Aye</string>
     <string name="button_message">Button ni mi</string>
+    <string name="spin_message">yi flag</string>
+    <string name="button1">button 1</string>
+    <string name="button2">button 2</string>
+    <string name="button3">button 3</string>
 </resources>
