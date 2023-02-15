@@ -26,4 +26,8 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent" />
 
+    <Mail
+        android:id="@+id/mail_id"
+        />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
