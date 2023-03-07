@@ -10,13 +10,9 @@ import com.example.iqramsandriodlab.databinding.ActivityMainBinding;
 
 
 
-import algonquin.cst2335.olor0008.databinding.ActivityMainBinding;
 
 public class MainActivity<btn> extends AppCompatActivity {
     private static String TAG= "MainActivity";
-
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
