@@ -2,10 +2,13 @@ package com.example.iqramsandriodlab;
 
 import android.os.Bundle;
 import android.view.View;
+import android.view.ViewGroup;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.RecyclerView;
+
+import com.example.iqramsandriodlab.databinding.ActivityChatRoomBinding;
 
 public class ChatRoom extends AppCompatActivity {
 
@@ -19,13 +22,29 @@ public class ChatRoom extends AppCompatActivity {
         binding = ActivityChatRoomBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
 
-        binding.recycleView.setAdapter(new RecyclerView.Adapter < MyRowHolder > ())
+        binding.recycleView.setAdapter(new RecyclerView.Adapter<MyRowHolder>() {
+            @NonNull
+            @Override
+            public MyRowHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
+                return null;
+            }
 
+            @Override
+            public void onBindViewHolder(@NonNull MyRowHolder holder, int position) {
+
+            }
+
+            @Override
+            public int getItemCount() {
+                return 0;
+            }
+        });
+    }
         class MyRowHolder extends RecyclerView.ViewHolder {
             public MyRowHolder(@NonNull View itemView) {
                 super(itemView);
             }
         }
 
-    }
+
 }
