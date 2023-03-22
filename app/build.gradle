@@ -6,6 +6,13 @@ android {
     namespace 'com.example.iqramsandriodlab'
     compileSdk 33
 
+    dataBinding{
+        enabled=true
+    }
+    buildFeatures{
+        viewBinding true
+    }
+
     defaultConfig {
         applicationId "com.example.iqramsandriodlab"
         minSdk 22
